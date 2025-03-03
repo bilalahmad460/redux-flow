@@ -31,6 +31,9 @@ const Calculator = () => {
         >
           -
         </button>
+        <button className="btn btn-success btn-lg mt-3 ms-3" type="button">
+          Sum
+        </button>
       </div>
     </div>
   );
