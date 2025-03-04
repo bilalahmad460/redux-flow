@@ -5,6 +5,8 @@ const reducer = (state = { count: 0 }, action) => {
     return { count: state.count + 1 };
   } else if (action.type === "decrement") {
     return { count: state.count - 1 };
+  } else if (action.type === "addition") {
+    return { count: state.count + Number(action.payload) };
   }
   return state;
 };
